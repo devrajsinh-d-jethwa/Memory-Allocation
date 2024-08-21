@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Allocation</title>
+    <link rel="stylesheet" href="memory.css">
+    <link rel = "icon" type = "image/x-icon" href = "./operational-system.png">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Memory Allocation Algorithm</h1>
+            <div class="c1">
+                <p>Enter Algorithm Type:</p>
+                <input list="allocation_type" placeholder="Algorithm Type" required id = "algo">
+                <datalist id="allocation_type">
+                    <option value="First Fit">
+                    <option value="Next Fit">
+                    <option value="Best Fit">
+                    <option value="Worst Fit">
+                </datalist>
+            </div>
+            <div class="c1">
+                <p>Enter Partition Type:</p>
+                <input list="partition_type" placeholder="Type of Partition" required id = "part">
+                <datalist id="partition_type">
+                    <option value="Fixed Size">
+                    <option value="Variable Size">
+                </datalist>
+            </div>
+            <div class="c1">
+                <input type="submit" id = "submit">
+            </div>
+        </div>
+    </section>
+    <script src = "memory.js"></script>
+</body>
+</html>

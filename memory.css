@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*
+{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  'Poppins', sans-serif;
+}
+body
+{
+    background-image: url("./os.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container
+{
+    border: 3px solid rgba(255,255,255,0.18);
+    border-radius: 10px;
+    width: 500px;
+    padding: 100px 50px;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur( 4px );
+    color:white;
+}
+.c1
+{
+    border: 2px solid rgba(31,38,135,0.37);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0 rgba(255,255,255,0.18);
+    transition: all 0.3s linear;
+}
+.c1:hover
+{
+    background-color: rgba(31,38,135,0.37);
+    border-color: white;
+}
+p
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+input::placeholder
+{
+    font-weight: 600;
+}
+input
+{
+    margin: 10px;
+    outline: 0;
+    cursor: pointer;
+    padding:10px;
+    border-radius: 10px;
+    border: 2ox solid rgba(31,38,135,0.37);
+}
+input:hover
+{
+    background-color: rgba(31,38,135,0.37);
+}
+h1
+{
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+input[type="submit"]
+{
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+input[type="submit"]:hover
+{
+    border-color: white;
+    color:white;
+}
